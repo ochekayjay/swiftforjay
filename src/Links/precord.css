@@ -1,0 +1,32 @@
+.records{
+    height:92%;
+    font-size:48px;
+    padding-left:10px
+}
+
+
+
+.recorddiv{
+    height:100%;
+    width:100%;
+    background-color: black;
+    color:white
+}
+
+
+
+@media (max-width:950px){
+    .datestring{
+        display:none
+    }
+    .slashtime{
+        display:none
+    }
+    .localstring{
+        display:none
+    }
+    .records{
+        font-size: 35px;
+        padding-top: 7px;
+    }
+}

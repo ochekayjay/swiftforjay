@@ -1,0 +1,42 @@
+.formhold{
+    padding-top:3%;
+      border-radius:15px;
+      width:40%;
+      height:75%;
+      background-color:#15171e;
+      box-shadow: 10px 10px 5px grey;
+      display: flex;
+      justify-content: space-around;
+      flex-direction: column;
+      margin: 15% auto;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  .formholder{
+      font-size: 25px;
+      letter-spacing: 2px;
+  }
+  
+  .submitopener:hover{
+    
+    border: 2px solid white;
+  }
+  
+  
+  @media (max-width:900px){
+    .formhold{
+      width:75%;
+      height:80%;
+      margin: 25vh auto;
+    }
+  
+    .formholder{
+      font-size: 15px;
+    }
+  }

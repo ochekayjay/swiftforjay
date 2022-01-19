@@ -1,0 +1,46 @@
+.leaderdiv{
+    height:100%;
+    width:100%;
+    background-color: black;
+    color:white;
+    
+}
+
+.topholder{
+    width:80%;
+    margin: 15px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.leadertop{
+    width: 30%;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-align: right;
+}
+.star{
+    padding-top: 5px;
+}
+
+
+@media (max-width:950px){
+    .topholder{
+        width:70%
+    }
+    .leadertop{
+        width:80%;
+        font-size:30px;
+        padding-top: 8px;
+    }
+    .star{
+        padding-top: 2px;
+    }
+}
+
+@media (max-width: 1000px) and (min-width: 800px){
+    .leadertop{
+        font-size: 35px;
+    }
+}

@@ -1,0 +1,18 @@
+.butt{
+    width: 45%;
+    height:5%;
+    display:flex;
+    margin: 25px auto 0px;
+    justify-content: space-between;
+}
+
+
+@media (max-width:800px){
+    .contentmain{
+        height: 60%;
+    }
+
+    .butt{
+        width:75%
+    }
+}

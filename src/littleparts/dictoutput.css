@@ -1,0 +1,37 @@
+.outputwrapper{
+    height:100%;
+    width:40%;
+    margin: 0px auto;
+    background-color:black;
+    color:white;
+    padding:40px;
+    padding-top: 15px;
+    
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.outputwrapsecond{
+    height:100%;
+    background-color: black
+}
+
+
+@media(max-width:800px){
+    .outputwrapper{
+        width:70%;
+        height:60%;
+        background-color: blueviolet;
+        margin:30% auto 0%;
+    }
+
+
+    .outputwrapsecond{
+        top:40%;
+    }
+
+    .audio{
+        width:170px
+    }
+}

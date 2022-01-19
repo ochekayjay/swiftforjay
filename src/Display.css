@@ -1,0 +1,35 @@
+.displaymain{
+    position:fixed;
+    top:0px;
+    bottom:0px;
+    height:100vh;
+    width:100vw;
+    box-sizing: border-box;
+    z-index:1
+    
+    
+}
+
+.inmaindis{
+    height:350px;
+    width:350px;
+    background-color: black;
+    border-radius: 15px 15px 0px 0px;
+    box-sizing: border-box;
+    margin: 15% auto 0%;
+    padding:15px;
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-style: solid;
+    border-color: red blue green yellow;
+}
+
+.displayelem{
+    display: flex;
+    justify-content: space-between;
+    color:white;
+    font-size: 20px;
+    font-family: sans-serif;
+}

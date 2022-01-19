@@ -1,0 +1,19 @@
+
+.timer{
+    width:30%;
+    height:100%;
+    border:1px solid red;
+    color: white;
+    text-align: center;
+    display: inline;
+    font-size: 20px;
+    padding:10px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    
+}
+
+.timer:hover{
+    background-color: red;
+    color:white;
+}

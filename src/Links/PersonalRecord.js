@@ -118,7 +118,7 @@ export default function Myprogress({ personalArr,BestScoreArray,BestScores,pArra
                   {personalArr.map(person=>(
                   <div key={Object.keys(person)} style={{width:'100%',heigth:'45%',backgroundColor:'black',padding:'5px 30px',boxSizing:'border-box'}}>
                     <div style={((personalArr.indexOf(person)+1) % 2 == 0)? black:ash}>
-                      <div style={{width:'20%',display:'flex',justifyContent:'space-around'}}>
+                      <div className='divforleftTableElement' >
                         <p>{personalArr.indexOf(person)+1}</p>
                         <div style={{display:'flex'}}>
                           <p className='datestring'>{person[Object.keys(person)]['Timestamp'].toDate().toDateString()}</p>
@@ -126,10 +126,10 @@ export default function Myprogress({ personalArr,BestScoreArray,BestScores,pArra
                           <p className='localstring'>{person[Object.keys(person)]['Timestamp'].toDate().toLocaleTimeString()}</p>
                         </div>    
                       </div>
-                      <div style={{width:'80%',display:'flex',justifyContent:'space-around'}}>
-                        <p style={{textAlign:'center',width:'33.3%'}}>{person[Object.keys(person)]['username']}</p>
-                        <p style={{textAlign:'center',width:'33.3%'}}> Word Per Minute: {person[Object.keys(person)]['word']}</p>
-                        <p style={{textAlign:'center',width:'33.3%'}}> Accuracy: {person[Object.keys(person)]['accuracy']}</p>
+                      <div className='divforrightTableElement'>
+                        
+                        <p style={{textAlign:'center',width:'50%'}}> W P M: {person[Object.keys(person)]['word']}</p>
+                        <p style={{textAlign:'center',width:'50%'}}> Accuracy: {person[Object.keys(person)]['accuracy']}</p>
                       </div>
                     </div>
                   </div>))}

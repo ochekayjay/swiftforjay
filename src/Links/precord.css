@@ -6,6 +6,18 @@
 
 
 
+.divforleftTableElement{
+        width: 40%;
+        display: flex;
+        justify-content: space-around
+}
+
+.divforrightTableElement{
+        width: 60%;
+        display: flex;
+        justify-content:space-around
+}
+
 .recorddiv{
     height:100%;
     width:100%;
@@ -29,4 +41,13 @@
         font-size: 35px;
         padding-top: 7px;
     }
+    .divforleftTableElement{
+        width: 5%;
+        
+}
+
+.divforrightTableElement{
+    width: 95%;
+    
+}
 }

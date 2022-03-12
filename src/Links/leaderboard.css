@@ -14,7 +14,7 @@
 }
 
 .leadertop{
-    width: 30%;
+    width: auto;
     font-size: 40px;
     font-weight: 700;
     letter-spacing: 3px;
@@ -39,8 +39,11 @@
     }
 }
 
-@media (max-width: 1000px) and (min-width: 800px){
+@media (max-width: 500px){
     .leadertop{
-        font-size: 35px;
+        font-size: 25px;
+    }
+    .topholder{
+        width:85%
     }
 }

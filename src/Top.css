@@ -6,6 +6,8 @@
     color: black;
     font-size: 1.5rem;
     justify-content: space-between;
+    box-sizing: border-box;
+  
   }
   
   .toph6{
@@ -25,7 +27,6 @@
   }
 
   .belowsearch{
-    width:38%;
     display: flex;
     width:90%;
     justify-content: space-around;
@@ -68,7 +69,9 @@
       margin: 3px auto;
       display:flex;
       flex-direction: column;
-      padding:25px
+      padding:25px;
+      align-items: center;
+      justify-content: center;
     }
     .toph1div{
       width:70%;
@@ -88,6 +91,8 @@
       flex-direction: column;
       width: 90%;
       margin:5px auto;
+      justify-content: center;
+      align-items: center;
     }
   }
 

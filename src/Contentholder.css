@@ -4,6 +4,7 @@
     margin:130px auto 20px;
     border-radius: 6px;
     margin-bottom: 20px;
+    
 }
 
 .jayblock{
@@ -50,6 +51,13 @@
         margin:80px auto;
         border-radius: 6px;
         margin-bottom: 20px;
+        box-sizing: border-box;
+        
+    }
+
+    .jayblock{
+        font-size: 17px;
+        padding: 10px;
     }
 
     .divforinput{
